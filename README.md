@@ -1,4 +1,4 @@
-# React + Vite
+# ToDo app React + Vite
 
 Ce projet est une liste de tâches réalisée dans le cadre de mon apprentissage front-end. Il s’appuie sur le tutoriel de Mozilla's MDN.
 
