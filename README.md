@@ -1,16 +1,35 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une liste de tâches réalisée dans le cadre de mon apprentissage front-end. Il s’appuie sur le tutoriel de Mozilla's MDN.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pour installer le projet :
 
-## React Compiler
+```bash
+git clone https://github.com/Nighteye/todo-react-vite.git
+cd todo-react-vite/
+npm install
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Dev
 
-## Expanding the ESLint configuration
+Pour lancer le projet en dev (l'appva s'ouvrir dans le navigateur à http://localhost:3000) :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run dev
+```
+
+## Build
+
+Pour générer le build dans dist/ :
+
+```bash
+npm run build
+```
+
+Pour voir la preview du build :
+
+```bash
+npm run preview
+```
